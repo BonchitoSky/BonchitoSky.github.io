@@ -1,4 +1,54 @@
-baseURL = 'https://example.org/'
+baseURL = "https://bonchitosky.github.io/"
 languageCode = 'en-us'
-title = 'My New Hugo Project'
+title = 'Rupankar Dutta - Full Stack Developer'
 theme = "PaperMod"
+paginate = 5
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML"]
+section = ["HTML", "RSS"]
+
+[[menu.main]]
+name = "About"
+url = "/my-about/"
+weight = 10
+
+[[menu.main]]
+name = "Resume"
+url = "/my-resume/"
+weight = 20
+
+[[menu.main]]
+name = "Experience"
+url = "/my-experience/"
+weight = 30
+
+[[menu.main]]
+name = "Contact"
+url = "/my-contact/"
+weight = 40
+
+[[menu.main]]
+name = "Archive"
+url = "/archives/"
+weight = 50
+
+[params]
+env = "production"
+title = "Rupankar Dutta"
+author = "Rupankar Dutta"
+description = "My professional website"
+defaultTheme = "auto"
+socialIcons = []
+
+[params.label]
+text = "RD"
+
+[params.homeInfoParams]
+title = "Welcome"
+content = "Hi! I'm Rupankar Dutta, a Full Stack Developer specializing in Python, Backend Development, Machine Learning, and IoT Systems."
+
