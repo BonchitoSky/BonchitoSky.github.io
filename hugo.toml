@@ -2,7 +2,9 @@ baseURL = "https://bonchitosky.github.io/"
 languageCode = 'en-us'
 title = 'Rupankar Dutta - Full Stack Developer'
 theme = "PaperMod"
-paginate = 5
+
+[pagination]
+pagerSize = 5
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -51,4 +53,3 @@ text = "RD"
 [params.homeInfoParams]
 title = "Welcome"
 content = "Hi! I'm Rupankar Dutta, a Full Stack Developer specializing in Python, Backend Development, Machine Learning, and IoT Systems."
-
