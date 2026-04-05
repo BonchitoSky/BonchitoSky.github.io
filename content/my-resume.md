@@ -3,43 +3,55 @@ title: "Resume"
 draft: false
 ---
 
-## Professional Summary
+## Profile
 
-I'm Rupankar Dutta, a full-stack developer and technology enthusiast with expertise in Python, C, backend development, machine learning, and IoT systems. I have hands-on experience building scalable REST APIs, intelligent ML models, and embedded IoT solutions.
+I'm Rupankar Dutta, a B.Tech student at KIIT University focused on embedded systems, the Internet of Things, and edge artificial intelligence. I have hands-on experience building decentralized real-time systems on ESP32, developing sensor-integrated firmware, implementing low-latency wireless communication, and deploying lightweight machine learning models for on-device inference. I also build full-stack applications and system-level solutions that combine software, hardware, and data-driven logic.
 
 [Download Resume PDF](/MyResume.pdf)
 
+## Education
+
+**Kalinga Institute of Industrial Technology (KIIT)**  
+Bachelor of Technology, 2023-2027  
+CGPA: 8.4/10
+
 ## Technical Skills
 
-**Programming Languages:** Python, C
+**Programming:** Python, C, SQL
 
-**Backend Development:** FastAPI, Flask, REST API Development
+**Embedded Systems / IoT:** ESP32, Sensor Integration, Embedded Firmware, Edge AI, TinyML
 
-**Machine Learning & NLP:** Linear Regression, LSTM, TextBlob, Scikit-learn
+**Machine Learning:** Facial Recognition, MobileNetV2, TensorFlow Lite
 
-**Data & Processing:** Web Scraping, Data Analysis, API Development
+**Backend Development:** FastAPI, Flask, Node.js
 
-**Embedded Systems:** Arduino, ESP32, IoT System Development
+**Web:** React, Socket.IO, MySQL
 
-**Databases:** MySQL
+**Tools:** Arduino IDE, PlatformIO, EasyEDA, Git, VS Code
 
-**Libraries & Tools:** BeautifulSuite, PyPDF2, Pydantic, Swagger, Git, VS Code, TensorFlow, ThingSpeak
+## Technologies
+
+**Embedded:** ESP32-WROOM-32, ESP32-CAM, ESP-NOW
+
+**Sensors:** DHT11, MQ-135, PIR, Sound Sensor
+
+**ML Stack:** Edge Impulse, TensorFlow Lite
+
+**Libraries:** BeautifulSoup, PyPDF2
 
 ## Featured Projects
 
-- **Dynamic Programming Text Auto-Correction System (C)** – Built a spelling correction system using dynamic programming techniques to compare user input against valid words and suggest likely corrections. Improved typo detection efficiency through optimized string matching and edit-distance-based comparison logic.
+- **Intelligent Decentralized Home Automation System (ESP32, Edge AI)** - Developed a fully decentralized smart home system using ESP32 nodes communicating via ESP-NOW for real-time sensing, local decision-making, and offline automation without cloud dependency. Implemented firmware for DHT11, MQ-135, PIR, and sound sensors, and contributed to a MobileNetV2-based TinyML facial recognition pipeline for secure on-device access control on ESP32-CAM.
 
-- **Automated Plant Watering System (ESP32, IoT)** – Developed a smart irrigation system using ESP32, soil moisture sensors, and DHT11 to monitor environmental conditions and automate watering. Integrated OLED-based live status display and ThingSpeak cloud logging for real-time observation and remote tracking.
+- **Real-Time Multiplayer Quiz Platform** - Designed and built a full-stack multiplayer quiz application using React, Node.js, and Socket.IO with private room-based sessions, timed rounds, live score tracking, leaderboard generation, and low-latency synchronized gameplay.
 
-- **WiFi Network Scanner (ESP32)** – Created an ESP32-based wireless scanning tool to detect nearby WiFi networks and measure signal strength values. Displayed SSIDs and RSSI information on an OLED screen, making the device useful for quick network diagnostics and signal analysis.
+- **Natural Language to SQL Query Generator** - Built a Flask and MySQL based system that converts natural language questions into structured SQL queries, simplifying database interaction for non-technical users through a clean web interface.
 
-- **Sentiment Prediction API (FastAPI, TextBlob)** – Designed a REST API for sentiment classification of text into positive, negative, and neutral categories using TextBlob. Added request validation with Pydantic and interactive testing through FastAPI Swagger documentation to improve reliability and usability.
+- **Dynamic Programming Text Auto-Correction (C)** - Developed a text correction system using edit-distance based dynamic programming to compare user input against dictionary words and generate likely corrections efficiently.
 
-- **Flask Authentication Dashboard (Flask, MySQL)** – Built a secure web application with user registration and login features using Flask and MySQL. Implemented password hashing, session handling, and a responsive dashboard for storing and displaying authenticated user information safely.
+- **Automated Plant Watering System (ESP32)** - Built an IoT-based irrigation system using ESP32 and environmental sensing to automate watering decisions based on plant conditions, with real-time monitoring and control features.
 
-- **Conversational Chatbot with PDF Reader (Python)** – Developed a rule-based chatbot capable of extracting and responding to information from PDF documents and web pages. Combined PyPDF2, BeautifulSoup, and keyword matching techniques to support simple document querying and web content retrieval.
-
-- **Stock Price Prediction System (Machine Learning)** – Implemented time-series forecasting models using Linear Regression and LSTM to analyze historical stock data and predict future price trends. Built a Flask-based interface for displaying outputs and visualizing predicted movements through interactive graphs.
+- **WiFi Network Scanner (ESP32)** - Developed an embedded wireless scanning tool using ESP32 to detect nearby WiFi networks and display SSID and RSSI values for signal analysis and basic network diagnostics.
 
 ### Connect With Me
 
