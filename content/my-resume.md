@@ -41,6 +41,8 @@ CGPA: 8.4/10
 
 ## Featured Projects
 
+- **Fork & Clone - One-Click GitHub Fork + Local Clone (Chrome Extension)** ([GitHub](https://github.com/BonchitoSky/fork-clone)) - Built a Chrome Manifest V3 extension paired with a Windows native-messaging companion in PowerShell that forks any GitHub repository and git-clones it locally in a single click. Implemented GitHub API orchestration with asynchronous fork-readiness polling, a strictly validated native host (pinned extension origin, GitHub-only clone URLs, path-traversal blocking), and a theme-aware in-page UI with configurable button placement and a confirmation flow.
+
 - **Intelligent Decentralized Home Automation System (ESP32, Edge AI)** - Developed a fully decentralized smart home system using ESP32 nodes communicating via ESP-NOW for real-time sensing, local decision-making, and offline automation without cloud dependency. Implemented firmware for DHT11, MQ-135, PIR, and sound sensors, and contributed to a MobileNetV2-based TinyML facial recognition pipeline for secure on-device access control on ESP32-CAM.
 
 - **Edge AI Anomaly Detection System (ESP32, TinyML)** ([GitHub](https://github.com/BonchitoSky/edge-ai-anomaly-detection)) - Built a real-time vibration anomaly detection system running entirely on an ESP32 with an MPU-6050 sensor: trained an LSTM autoencoder in TensorFlow, quantized it to int8 for TFLite Micro on-device inference, and added a fault-type classifier. Developed a Flask + JavaScript dashboard with live reconstruction-error charts, adaptive EWMA thresholding, and CSV-exportable anomaly event logs.
