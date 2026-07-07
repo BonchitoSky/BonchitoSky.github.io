@@ -23,6 +23,7 @@ I'm a passionate developer and technology enthusiast with expertise in Python, C
 
 ## Featured Projects
 
+- **Fork & Clone – One-Click GitHub Fork + Local Clone** ([GitHub](https://github.com/BonchitoSky/fork-clone)) – Built a Chrome Manifest V3 extension with a Windows native-messaging companion (PowerShell) that forks any GitHub repository and git-clones it locally in a single click — GitHub API orchestration with fork-readiness polling, a strictly validated native host (origin pinning, URL/path allow-listing), and a theme-aware in-page UI with confirmation flow.
 - **Edge AI Anomaly Detection System (ESP32, TinyML)** ([GitHub](https://github.com/BonchitoSky/edge-ai-anomaly-detection)) – Built a real-time vibration anomaly detection system running entirely on an ESP32: an LSTM autoencoder trained in TensorFlow, quantized to int8 for TFLite Micro on-device inference, with a fault-type classifier and a live Flask + JavaScript dashboard.
 - **CookMind AI – AI-Powered Cooking Assistant** ([GitHub](https://github.com/BonchitoSky/CookMind-AI)) – Developed a full-stack AI application using React, FastAPI, PostgreSQL, and the OpenAI API with personalized recipe recommendations, conversational cooking assistance, and image-based ingredient recognition, containerized with Docker.
 - **TheRUPOgate – Microservices API Gateway** ([GitHub](https://github.com/BonchitoSky/TheRUPOgate)) – Engineered a production-style Node.js API gateway handling JWT authentication, Redis sliding-window rate limiting, proxy routing, and a live SSE monitoring dashboard.
